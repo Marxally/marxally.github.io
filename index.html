@@ -6,12 +6,10 @@
     <link rel="stylesheet"
           href="./css/style.css">
     
-    <link rel="shortcut icon" type="image/png" href="https://i.imgur.com/TWjSSLd.png"/>
-    <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Montserrat">
-    <title>Home - uCraft</title>
+    <link rel="shortcut icon" type="image/png" href="https://pa1.narvii.com/6529/4096e6a459fdda72dbbbfcc5b60598c51dcc1ba9_hq.gif"/>
+    <title>Inici - NintenCAT</title>
     
-    <h2>Today it's <script> 
+    <h5>Avui és el <script> 
 var mydate=new Date(); 
 var year=mydate.getYear(); 
 if (year < 1000) 
@@ -25,11 +23,11 @@ if (daym<10)
 daym="0"+daym; 
 document.write("<small><font color='white' face='Montserrat'><b>"+daym+"/"+month+"/"+year+"</b></font></small>") 
 </script> 
-    </h3>
+</h3>
     
    
         <img src="./img/banner.png" oncontextmenu="return false" draggable="false" onmousedown="return false" style="user-drag: none" alt="Banner">
-   <div id="navbar">
+   <div id="nav">
        <a class="active" href="index.html">Home</a>
        <a href="about.html">About</a>
        <a href="contact.html">Contact</a>
@@ -40,12 +38,44 @@ document.write("<small><font color='white' face='Montserrat'><b>"+daym+"/"+month
 <body>
 
 
-    <div class="caixagran">
-        <br>
-          <h5><center>WELCOME TO AMA DESIGN</center></h5>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>FENTS PROVES</h2>
+      <h5>Publicat a <font color="white">NintenCAT</font>, el <font color="white">19/08/2018</font></h5>
+      <img src="./img/botw_1.jpg">
+      <p>Some text..</p>
     </div>
-    
-    
+    <br>
+    <div class="card">
+      <h2>BENVINGUTS A NINTEN.CAT</h2>
+      <h5>Publicat a <font color="white">NintenCAT</font>, el <font color="white">19/08/2018</font></h5>
+      <img src="./img/mario64_1.jpg">
+      <br>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et sollicitudin ipsum. Nullam et accumsan arcu. Sed dignissim felis eget hendrerit egestas. Maecenas elementum finibus lacus, non fermentum urna scelerisque id. Nunc facilisis ex ac suscipit fermentum. Cras nunc purus, mollis at mi et, lacinia egestas neque. Praesent bibendum, elit sit amet luctus bibendum, nunc risus sagittis orci, a lobortis nunc nisl ac ipsum. Pellentesque elementum tristique luctus. Integer auctor sed nulla ornare consequat. In hac habitasse platea dictumst. Aliquam sit amet sagittis arcu.</p>
+      <br>
+    <p>Aenean a ipsum quis orci gravida tristique eu vitae ligula. Nunc rutrum odio scelerisque, dignissim lorem nec, placerat ligula. Sed eget sem non enim porta porta. Sed accumsan imperdiet semper. Etiam eu ex ante. Nullam eu nisl consectetur nisi aliquam semper. Duis tortor nisi, eleifend id feugiat nec, rutrum eleifend tortor. Aliquam non ante scelerisque, venenatis tortor sit amet, euismod nulla. Vestibulum velit tortor, tempus a elit dignissim, hendrerit iaculis arcu. Curabitur quis libero non justo fermentum bibendum. Praesent id metus ultricies, luctus ex quis, sagittis nisl. Fusce at sem urna. Quisque eleifend, ligula a cursus ultricies, nibh nunc vehicula neque, eget varius lacus tellus non nulla. Nullam eu auctor dui, ac tincidunt arcu. Nullam in nisl orci. </p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Sobre mi</h2>
+        <img src="https://i.pinimg.com/originals/37/8c/a6/378ca66c75def704698e6bc6deef0681.jpg">
+        <br>
+      <p>Bones, em dic Guillermo, i m'agrada moltíssim jugar al Fortnite de la Switch. És una vergonya que Nintedo no fiqui el personatge default del Fortnite al Super Smash Bros. Ultimate. Tincs 33 anys, edat en que morí nostre senyor.</p>
+    </div>
+    <div class="card">
+      <h2>Més popular</h2>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h2>Segueix-nos</h2>
+      <p>Per les reds socials, no pel carrer.</p>
+    </div>
+  </div>
+</div>
 
 
 </body>    
@@ -54,15 +84,13 @@ document.write("<small><font color='white' face='Montserrat'><b>"+daym+"/"+month
     
     <script>
 window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
+var navbar = document.getElementById("nav");
+var sticky = nav.offsetTop;
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
+    nav.classList.add("sticky")
   } else {
-    navbar.classList.remove("sticky");
+    nav.classList.remove("sticky");
   }
 }
 </script>
