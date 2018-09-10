@@ -79,6 +79,14 @@ h3{
     padding-bottom: 5px;
     margin-top: 15px;
 }
+
+h4{
+    color: black;
+font-size: 24px;
+font-weight: 900;
+text-align: center;
+}
+
 /*TITULARS*/
 h2{
         color: white;
@@ -94,7 +102,7 @@ h2{
 }
 
 h6{
-        color: white;
+    color: white;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -353,4 +361,19 @@ img {
   .leftcolumn, .rightcolumn {
     width: 100%;
     padding: 0;
+}
+
+h4{
+    color: white;
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+background-color: darkred;
+padding: 10px;
+border-radius: 15px;
+margin-bottom: 15px;
+text-align: center;
+text-shadow: 1px 1px black;
+}
+
 }
