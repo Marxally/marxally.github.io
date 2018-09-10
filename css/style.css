@@ -82,8 +82,8 @@ h3{
 
 h4{
     color: black;
-font-size: 24px;
-font-weight: 900;
+font-size: 16px;
+font-weight: 700;
 text-align: center;
 }
 
@@ -338,7 +338,7 @@ img {
     width: 25%;
     padding-left: 20px;
     margin-bottom: 75px;
-    margin-top: 15  px;
+    margin-top: 15px;
 }
     
 /* Add a card effect for articles */
@@ -347,7 +347,7 @@ img {
     padding: 20px;
     margin-top: 20px;
     border-radius: 15px;
-    line-height:24px;
+    line-height: 24px;
     box-shadow: 3.5px 1.5px #dddddd;
 
 }
@@ -364,18 +364,4 @@ img {
     width: 100%;
     padding: 0;
 }
-
-h4{
-    color: white;
-font-size: 16px;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 600;
-background-color: darkred;
-padding: 10px;
-border-radius: 15px;
-margin-bottom: 15px;
-text-align: center;
-text-shadow: 1px 1px black;
-}
-
 }
